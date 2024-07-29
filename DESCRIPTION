@@ -6,19 +6,22 @@ Authors@R:
 Description: ValiTex contains the Shiny app implementation of the ValiTex
     Checklist, which accompanies the ValiTex framework for validating
     text-based measures of social science constructs.
-Depends: R (>= 3.10)
 License: MIT + file LICENSE
 URL: https://github.com/lukasbirki/ValiTex
 BugReports: https://github.com/lukasbirki/ValiTex/issues
+Depends: 
+    R (>= 3.10)
 Imports: 
     config (>= 0.3.2),
     dplyr,
+    pkgload,
     DT,
     golem (>= 0.4.1),
     htmlwidgets,
     prompter,
     shiny (>= 1.8.1.1),
-    shinyjs
+    shinyjs,
+    utils
 Suggests: 
     spelling,
     testthat (>= 3.0.0)
