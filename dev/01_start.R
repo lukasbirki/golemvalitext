@@ -47,7 +47,11 @@ usethis::use_lifecycle_badge("Experimental")
 usethis::use_news_md(open = FALSE)
 
 ## Use git ----
+
+usethis::use_git_config(user.name = "lukasbirki", user.email = "lukas.birkenmaier@outlook.de")
+
 usethis::use_git()
+
 
 ## Init Testing Infrastructure ----
 ## Create a template for tests
