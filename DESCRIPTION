@@ -19,9 +19,7 @@ Imports:
     htmlwidgets,
     prompter,
     shiny (>= 1.8.1.1),
-    shinyjs,
-    pkgload,
-    devtools
+    shinyjs
 Suggests: 
     spelling,
     testthat (>= 3.0.0)
