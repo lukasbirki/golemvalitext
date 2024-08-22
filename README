@@ -1,0 +1,15 @@
+From your command line, run:
+
+docker build -f Dockerfile_base --progress=plain -t valitext_base .
+docker build -f Dockerfile --progress=plain -t valitext:latest .
+
+Then, to push on heroku:
+
+heroku container:login
+heroku create valitext-2-0
+heroku container:push web --app valitext-2-0
+heroku container:release web --app valitext-2-0
+heroku open --app valitext-2-0
+
+> Be sure to have the heroku CLI installed.
+> You can replace ValiText-1-0 with another app name.

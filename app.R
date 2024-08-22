@@ -9,5 +9,4 @@ options("repos")
 
 ValiText::run_app()
 
-devtools::check()
 

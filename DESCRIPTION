@@ -14,14 +14,12 @@ Depends:
 Imports: 
     config (>= 0.3.2),
     dplyr,
-    pkgload,
     DT,
     golem (>= 0.4.1),
     htmlwidgets,
     prompter,
     shiny (>= 1.8.1.1),
-    shinyjs,
-    utils
+    shinyjs
 Suggests: 
     spelling,
     testthat (>= 3.0.0)

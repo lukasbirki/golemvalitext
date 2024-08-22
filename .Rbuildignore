@@ -11,6 +11,9 @@ $run_dev.*
 ^README\.Rmd$
 ^CODE_OF_CONDUCT\.md$
 ^app\.R$
+^Dockerfile
+^Dockerfile_base
+^renv.lock.prod
 
-^Dockerfile$
-^\.dockerignore$
+
+
